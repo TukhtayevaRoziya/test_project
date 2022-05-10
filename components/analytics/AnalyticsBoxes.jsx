@@ -5,12 +5,12 @@ import styles from "./Analytics.module.css";
 import { Button, Popover } from "antd";
 import 'antd/dist/antd.css';
 
-export const AnalyticsBoxes = ({title1, txt1, title2, txt2, title3, txt3, title4, txt4, props }) => {
+export const AnalyticsBoxes = ({title1, txt1, title2, txt2, title3, txt3, title4, txt4, ...props }) => {
+  console.log(props)
   return (
     <div className={styles.analytics__body__block__box}>
             <div className={styles.analytics__body__block__box__titles}>
               <div>
-                {...props}
                 <p>{title1}</p>
                 <h3>{txt1}</h3>
               </div>
