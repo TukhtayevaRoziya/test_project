@@ -1,0 +1,40 @@
+.header {
+  height: 68px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #943740;
+}
+
+.header_body{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+
+  margin: 0;
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffd4a3;
+}
+
+.header p:nth-child(2) {
+  width: 20%;
+}
+
+
+
+.header p b {
+  text-decoration-line: underline;
+  color: #febf3e;
+}
