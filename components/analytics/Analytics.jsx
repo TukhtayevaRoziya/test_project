@@ -26,17 +26,11 @@ export const Analytics = () => {
           <AnalyticsBoxes title1={'Token Address'} txt1={'0xd4...8d53'} 
           title2={'Token Name'} txt2={'$SHIBGOTCHI'} 
           title3={'Website'} txt3={'shibgothitoken.com'} 
-          title4={'Socials'} txt4={'0xd4...8d53'} />
+          title4={'Socials'} txt4={'0xd4...8d53'} btnClass={styles.btn}/>
            <AnalyticsBoxes title1={'MARKET CAP'} txt1={'$3,649,182.09'} 
           title2={'TOTAL HOLDERS'} txt2={'3,022'} 
           title3={'TOTAL LIQUIDITY'} txt3={'$283,183.46'} 
-          title4={'TOTAL TX'} txt4={'5,605'} a={ <p>
-                  market cap
-                  <Popover content={content} title="">
-                     <button> <FaQuestionCircle /></button>
-                  </Popover>
-                </p>
-          }/> 
+          title4={'TOTAL TX'} txt4={'5,605'} /> 
           {/* <div className={styles.analytics__body__block__box}>
             <div className={styles.analytics__body__block__box__titles}>
               <div>
