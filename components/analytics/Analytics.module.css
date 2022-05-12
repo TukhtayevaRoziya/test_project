@@ -119,5 +119,14 @@
 }
 
 .btn{
-  display: none
+  display: none;
+}
+
+.analytics__body__block__diagramma_box{
+  width: 70% !important;
+  margin-top: 2rem
+}
+
+.analytics__body__block__diagramma_box__title{
+  padding-left: 40px
 }
