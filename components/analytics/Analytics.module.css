@@ -52,7 +52,7 @@
 }
 
 .analytics__body__block__box__titles {
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: flex-start;
 }
@@ -124,9 +124,17 @@
 
 .analytics__body__block__diagramma_box{
   width: 70% !important;
-  margin-top: 2rem
+  margin-top: 2rem;
+}
+
+.analytics__body__block__diagramma_box__img{
+  width: 30%
 }
 
 .analytics__body__block__diagramma_box__title{
   padding-left: 40px
+}
+
+.analytics__body__block__diagramma_box__text_block{
+  width: 40%
 }

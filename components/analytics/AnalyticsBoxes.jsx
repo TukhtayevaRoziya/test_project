@@ -1,8 +1,8 @@
 import { RiArrowDropLeftLine } from "react-icons/ri";
 import { FaQuestionCircle } from "react-icons/fa";
+import { Button, Popover } from "antd";
 
 import styles from "./Analytics.module.css";
-import { Button, Popover } from "antd";
 import "antd/dist/antd.css";
 
 const content = (

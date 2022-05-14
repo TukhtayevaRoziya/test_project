@@ -1,6 +1,9 @@
 import { RiArrowDropLeftLine } from "react-icons/ri";
+import Image from "next/image";
 
 import { AnalyticsBoxes } from "./AnalyticsBoxes";
+
+import diagramma from '../../assets/home/diagramma.png'
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
@@ -44,6 +47,8 @@ export const Analytics = () => {
             styles.analytics__body__block__box
           }
         >
+          <div className={ styles.analytics__body__block__diagramma_box__text_block}>
+
           <AnalyticsBoxes
             title1={"Max Total Supply"}
             txt1={"100,000,000,000,000,000"}
@@ -57,6 +62,9 @@ export const Analytics = () => {
               <h3>28%</h3>
             </div>
           </div>
+          </div>
+
+        <Image className={styles.analytics__body__block__diagramma_box__img} src={diagramma} alt="" />
         </div>
       </div>
     </div>
