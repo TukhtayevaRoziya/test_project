@@ -39,7 +39,7 @@
   margin-top: 30px;
 }
 
-.analytics__body__block {
+.analytics__body__block { 
   width: 100%;
   display: flex;
   justify-content: space-between;
