@@ -7,6 +7,7 @@
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 40px;
 }
 
@@ -19,7 +20,6 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 26px;
-  /* identical to box height, or 81% */
 
   color: #619ebb;
 }
@@ -52,7 +52,7 @@
 }
 
 .analytics__body__block__box__titles {
-  width: 30%;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
 }
@@ -125,16 +125,36 @@
 .analytics__body__block__diagramma_box{
   width: 70% !important;
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.analytics__body__block__diagramma_box span{
+  margin-right: 40px !important;
+  height: 80% !important;
 }
 
 .analytics__body__block__diagramma_box__img{
-  width: 30%
+  width: 30% !important;
+  margin-right: 40px;
+  object-fit: contain;
 }
 
 .analytics__body__block__diagramma_box__title{
-  padding-left: 40px
+  padding-left: 40px;
+  width: 30%
 }
 
 .analytics__body__block__diagramma_box__text_block{
-  width: 40%
+  width: 40%;
+}
+
+.analytics__body__block__diagramma_box__text_block .analytics__body__block__box{
+  width: 100% !important
+}
+
+.analytics__body__block__desc_block{
+  width: 25%;
+  margin-top: 2rem;
 }

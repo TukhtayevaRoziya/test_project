@@ -7,6 +7,7 @@ import diagramma from '../../assets/home/diagramma.png'
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
+import { AChart } from './chart/Chart';
 
 export const Analytics = () => {
   return (
@@ -65,6 +66,31 @@ export const Analytics = () => {
           </div>
 
         <Image className={styles.analytics__body__block__diagramma_box__img} src={diagramma} alt="" />
+        </div>
+        <div
+          className={
+            styles.analytics__body__block__desc_block +
+            " " +
+            styles.analytics__body__block__box
+          }
+        >
+          <div className={ styles.analytics__body__block__diagramma_box__text_block}>
+
+          <AnalyticsBoxes
+            title1={"first block (wallets)"}
+            txt1={"100,000,000,000,000,000"}
+            title3={"Circulation supply"}
+            txt3={"72%"}
+          />
+          <div className={styles.analytics__body__block__box__titles + ' ' + styles.analytics__body__block__diagramma_box__title}>
+            <div>
+              <p>in deployer</p>
+              <h3>28%</h3>
+            </div>
+          </div>
+          </div>
+          <AChart />
+        {/* <Image className={styles.analytics__body__block__diagramma_box__img} src={diagramma} alt="" /> */}
         </div>
       </div>
     </div>
