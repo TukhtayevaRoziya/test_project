@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Mini Pixel-7";
+  src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
+}
+.Wrapper__Login {
+  background: #061e29;
+  height: 100vh;
+  width: 100%;
+}
+.login__input__blog label {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #4f849e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.Input__type__text {
+  width: 300px;
+  height: 40px;
+  background: #0d2b45;
+}
+.login__input__blog {
+  border: 2px solid red;
+}
+.login__input,
+.Login__Block {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.login__input {
+  background: #0d2b45;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 60px;
+}
+.login__input img {
+  border: 2px solid red;
+}
+.login__input__img {
+  border: 2px solid red !important;
+  width: 31px !important;
+  height: 23px !important;
+}
+.login__input h1 {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  width: 462px;
+  color: #ffffff;
+}
+.Wrapper {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+}
+.Login__Block {
+  border: 2px solid yellow;
+}
+.Login__Block h1 {
+  font-family: "VT323", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 106px;
+  line-height: 112px;
+  width: 745px;
+  border: 2px solid red;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Login__Block p {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  width: 555px;
+  border: 2px solid red;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #619ebb;
+}
