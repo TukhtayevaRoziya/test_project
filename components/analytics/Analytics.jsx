@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import { AnalyticsBoxes } from "./AnalyticsBoxes";
 
-import diagramma from '../../assets/home/diagramma.png'
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
@@ -64,8 +63,7 @@ export const Analytics = () => {
             </div>
           </div>
           </div>
-
-        <Image className={styles.analytics__body__block__diagramma_box__img} src={diagramma} alt="" />
+          <AChart />
         </div>
         <div
           className={
@@ -78,19 +76,18 @@ export const Analytics = () => {
 
           <AnalyticsBoxes
             title1={"first block (wallets)"}
-            txt1={"100,000,000,000,000,000"}
-            title3={"Circulation supply"}
-            txt3={"72%"}
+            txt1={"142"}
           />
-          <div className={styles.analytics__body__block__box__titles + ' ' + styles.analytics__body__block__diagramma_box__title}>
-            <div>
-              <p>in deployer</p>
-              <h3>28%</h3>
-            </div>
+          <AnalyticsBoxes
+            title1={"current block (wallets)"}
+            txt1={"3,468"}
+          />
+          <AnalyticsBoxes
+            title1={"Blacklisted wallets"}
+            txt1={"132"}
+          />
+          <h1 className={styles.analytics__body__block__desc_block__list_text}>Blacklisted wallets list</h1>
           </div>
-          </div>
-          <AChart />
-        {/* <Image className={styles.analytics__body__block__diagramma_box__img} src={diagramma} alt="" /> */}
         </div>
       </div>
     </div>

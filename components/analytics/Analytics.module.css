@@ -135,10 +135,9 @@
   height: 80% !important;
 }
 
-.analytics__body__block__diagramma_box__img{
-  width: 30% !important;
-  margin-right: 40px;
-  object-fit: contain;
+.analytics__body__block__diagramma_box canvas{
+  width: 40% !important;
+  height: auto !important
 }
 
 .analytics__body__block__diagramma_box__title{
@@ -157,4 +156,32 @@
 .analytics__body__block__desc_block{
   width: 25%;
   margin-top: 2rem;
+}
+
+.analytics__body__block__desc_block .analytics__body__block__box{
+   padding: 0 !important;
+   width: 100%
+}
+
+.analytics__body__block__desc_block .analytics__body__block__box__titles div:first-child {
+  width: 100%
+}
+.analytics__body__block__desc_block .analytics__body__block__diagramma_box__text_block{
+  width: 100%
+}
+
+.analytics__body__block__desc_block__list_text{
+  font-family: 'Mini Pixel-7';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+/* identical to box height, or 81% */
+
+text-decoration-line: underline;
+
+/* yellow */
+
+color: #FEBF3E;
+
 }
