@@ -1,0 +1,113 @@
+.analytics__body__block__diagramma_box{
+  width: 70% !important;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.analytics__body__block__diagramma_box span{
+  margin-right: 40px !important;
+  height: 80% !important;
+}
+
+.analytics__body__block__diagramma_box canvas{
+  width: 40% !important;
+  height: auto !important
+}
+
+.analytics__body__block__diagramma_box__text_block{
+  width: 100%;
+}
+
+.analytics__body__block__diagramma_box__text_block .analytics__body__block__box{
+  width: 100% !important
+}
+
+.analytics__body__block__desc_block .analytics__body__block__diagramma_box__text_block{
+  width: 100%
+}
+
+
+.analytics__body__block__box__titles {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.analytics__body__block__box__titles div:first-child {
+  width: 60%;
+}
+
+.analytics__body__block__box__titles div p {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #619ebb;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.analytics__body__block__box__titles div p button {
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+.analytics__body__block__box__titles div h3 {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  text-align: left;
+
+  color: #ffffff;
+  margin: 8px 0px;
+}
+
+.analytics__body__block__diagramma_box__title{
+  padding-left: 40px;
+  width: 30%
+}
+
+
+.analytics__body__block__desc_block{
+  width: 25% !important;
+  margin-top: 2rem;
+}
+
+.analytics__body__block__desc_block .analytics__body__block__box{
+   padding: 0 !important;
+   width: 100%
+}
+
+.analytics__body__block__desc_block .analytics__body__block__box__titles div:first-child {
+  width: 100%
+}
+
+.analytics__body__block__desc_block__list_text{
+  font-family: 'Mini Pixel-7';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+/* identical to box height, or 81% */
+
+text-decoration-line: underline;
+
+/* yellow */
+
+color: #FEBF3E;
+
+}
+
+.analytics__body__block__box {
+  width: 100%;
+  padding: 10px;
+  background: #0d2b45;
+}

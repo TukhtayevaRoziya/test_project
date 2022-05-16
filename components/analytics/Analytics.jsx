@@ -1,12 +1,11 @@
 import { RiArrowDropLeftLine } from "react-icons/ri";
-import Image from "next/image";
 
 import { AnalyticsBoxes } from "./AnalyticsBoxes";
 
+import {ChartBox} from './chart/Chart'
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
-import { AChart } from './chart/Chart';
 
 export const Analytics = () => {
   return (
@@ -40,55 +39,7 @@ export const Analytics = () => {
             txt4={"5,605"}
           />
         </div>
-        <div
-          className={
-            styles.analytics__body__block__diagramma_box +
-            " " +
-            styles.analytics__body__block__box
-          }
-        >
-          <div className={ styles.analytics__body__block__diagramma_box__text_block}>
-
-          <AnalyticsBoxes
-            title1={"Max Total Supply"}
-            txt1={"100,000,000,000,000,000"}
-            title3={"Circulation supply"}
-            txt3={"72%"}
-            btnClass={styles.btn}
-          />
-          <div className={styles.analytics__body__block__box__titles + ' ' + styles.analytics__body__block__diagramma_box__title}>
-            <div>
-              <p>in deployer</p>
-              <h3>28%</h3>
-            </div>
-          </div>
-          </div>
-          <AChart />
-        </div>
-        <div
-          className={
-            styles.analytics__body__block__desc_block +
-            " " +
-            styles.analytics__body__block__box
-          }
-        >
-          <div className={ styles.analytics__body__block__diagramma_box__text_block}>
-
-          <AnalyticsBoxes
-            title1={"first block (wallets)"}
-            txt1={"142"}
-          />
-          <AnalyticsBoxes
-            title1={"current block (wallets)"}
-            txt1={"3,468"}
-          />
-          <AnalyticsBoxes
-            title1={"Blacklisted wallets"}
-            txt1={"132"}
-          />
-          <h1 className={styles.analytics__body__block__desc_block__list_text}>Blacklisted wallets list</h1>
-          </div>
-        </div>
+       <ChartBox />
       </div>
     </div>
   );
