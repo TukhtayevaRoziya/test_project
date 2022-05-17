@@ -7,6 +7,7 @@
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 40px;
 }
 
@@ -19,7 +20,6 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 26px;
-  /* identical to box height, or 81% */
 
   color: #619ebb;
 }
@@ -52,7 +52,7 @@
 }
 
 .analytics__body__block__box__titles {
-  width: 30%;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
 }
@@ -120,21 +120,4 @@
 
 .btn{
   display: none;
-}
-
-.analytics__body__block__diagramma_box{
-  width: 70% !important;
-  margin-top: 2rem;
-}
-
-.analytics__body__block__diagramma_box__img{
-  width: 30%
-}
-
-.analytics__body__block__diagramma_box__title{
-  padding-left: 40px
-}
-
-.analytics__body__block__diagramma_box__text_block{
-  width: 40%
 }

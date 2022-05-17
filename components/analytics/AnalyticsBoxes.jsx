@@ -22,7 +22,7 @@ export const AnalyticsBoxes = ({
   txt4,
   btnClass
 }) => {
-  
+  console.log(title3 ? 'hello' : 'error')
   return (
     <div className={styles.analytics__body__block__box}>
       <div className={styles.analytics__body__block__box__titles}>
@@ -48,6 +48,7 @@ export const AnalyticsBoxes = ({
           " " +
           styles.analytics__body__block__box__titles_2
         }
+        style={{marginTop: title3 ? 'inherit' : '10px', }}
       >
         <div>
           <p>{title3}</p>
