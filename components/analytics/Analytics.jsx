@@ -3,6 +3,7 @@ import { RiArrowDropLeftLine } from "react-icons/ri";
 import { AnalyticsBoxes } from "./AnalyticsBoxes";
 
 import {ChartBox} from './chart/Chart'
+import {BigBlock} from './bigBlock/BigBlock'
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
@@ -40,6 +41,7 @@ export const Analytics = () => {
           />
         </div>
        <ChartBox />
+       <BigBlock />
       </div>
     </div>
   );
