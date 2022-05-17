@@ -20,9 +20,9 @@ export const AnalyticsBoxes = ({
   txt3,
   title4,
   txt4,
-  btnClass
+  btnClass,
+  btnClass2 = styles.btn,
 }) => {
-  console.log(title3 ? 'hello' : 'error')
   return (
     <div className={styles.analytics__body__block__box}>
       <div className={styles.analytics__body__block__box__titles}>
@@ -38,7 +38,14 @@ export const AnalyticsBoxes = ({
           <h3>{txt1}</h3>
         </div>
         <div>
-          <p>{title2}</p>
+          <p>
+            {title2}
+            <Popover content={content} title="" className={btnClass2}>
+              <button>
+                <FaQuestionCircle />
+              </button>
+            </Popover>
+          </p>
           <h3>{txt2}</h3>
         </div>
       </div>
@@ -48,14 +55,29 @@ export const AnalyticsBoxes = ({
           " " +
           styles.analytics__body__block__box__titles_2
         }
-        style={{marginTop: title3 ? 'inherit' : '10px', }}
+        style={{ marginTop: title3 ? "inherit" : "10px" }}
       >
         <div>
-          <p>{title3}</p>
+          <p>
+            {title3}
+            <Popover content={content} title="" className={btnClass2}>
+              <button>
+                <FaQuestionCircle />
+              </button>
+            </Popover>
+          </p>
           <h3>{txt3}</h3>
         </div>
         <div>
-          <p>{title4}</p>
+          <p>
+            {title4}
+
+            <Popover content={content} title="" className={btnClass2}>
+              <button>
+                <FaQuestionCircle />
+              </button>
+            </Popover>
+          </p>
           <h3>{txt4}</h3>
         </div>
       </div>

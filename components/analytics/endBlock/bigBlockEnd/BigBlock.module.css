@@ -8,7 +8,7 @@
 }
 
 .bigBlock__title{
-  width: 50%
+  width: 55%
 }
 
 .bigBlock__title h1{
@@ -25,17 +25,8 @@ color: #FEBF3E !important;
 all: unset;
 }
 
-.bigBlock__img{
+.bigBlock__text{
   height:  100%;
-  width: 30%
+  width: 50%
 }
 
-.bigBlock__img img{
-  object-fit: contain !important;
-
-}
-
-.bigBlock__img span:first-child{
-  width: 100% !important;
-  height: 100% !important;
-}

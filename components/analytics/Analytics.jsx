@@ -7,6 +7,7 @@ import {BigBlock} from './bigBlock/BigBlock'
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
+import { EndBlock } from "./endBlock/EndBlock";
 
 export const Analytics = () => {
   return (
@@ -42,6 +43,7 @@ export const Analytics = () => {
         </div>
        <ChartBox />
        <BigBlock />
+       <EndBlock/>
       </div>
     </div>
   );
