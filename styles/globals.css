@@ -1,10 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: "Mini Pixel-7";
     src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
 }
+
 body{
     margin: 0;
-  font-family: "Mini Pixel-7" !important;
+    background-color: #061E29 !important;
+}
+
+::selection {
+    background-color: var(--geist-selection);
+    color: red;
+}
+
+.ant-popover-inner-content{
+    padding: 0 !important
+}
+
+.ant-popover-arrow-content::before{
+    background: #848C93 !important;
 
 }
+

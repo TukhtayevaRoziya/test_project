@@ -1,5 +1,6 @@
-/* eslint-disable jsx-a11y/alt-text */
+import React, { useState } from "react";
 import style from "./login.module.css";
+import { message, Checkbox } from "antd";
 import Image from "next/image";
 import img from "../../image/Login1.svg";
 export const Login = () => {
@@ -21,23 +22,58 @@ export const Login = () => {
   );
 };
 export const Input = () => {
+  const [message2, setMessage] = useState(null);
+
+  const handleChange = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handleClick = (event) => {
+    event.preventDefault();
+    if (message2 === null) {
+      message.error("You must enter information in the input");
+    } else {
+      message.success("Successfully completed");
+    }
+  };
   return (
     <div className={style.login__input}>
       <div>
         <h1>Get info about your Token</h1>
-        <Image src={img} className={style.login__input__img} />
+        <Image
+          src={img}
+          className={style.login__input__img}
+          alt="rasm bor edi!"
+        />
       </div>
       <div className={style.login__input__blog}>
-        <label htmlFor="text">Starting block</label>
+        <label className={style.login__input__blog__label} htmlFor="text">
+          Starting block
+        </label>
+        <br />
+        <input
+          className={style.Input__type__text}
+          type="text"
+          id="message"
+          name="message"
+          onChange={handleChange}
+          value={message2}
+          autoComplete="off"
+        />
+        <br />
+        <label className={style.login__input__blog__label} htmlFor="text">
+          Token Address
+        </label>
         <br />
         <input className={style.Input__type__text} type="text" />
         <br />
-        <label htmlFor="text">Token Address</label>
-        <br />
-        <input className={style.Input__type__text} type="text" />
-        <br />
-        <input type="checkbox" />
-        <label htmlFor="checkbox">Check blacklisted wallets</label>
+        <Checkbox className={style.Input__type__checkbox}>
+          Check blacklisted wallets{" "}
+        </Checkbox>
+        ;
+        <button type="button" onClick={handleClick}>
+          Get info
+        </button>
       </div>
     </div>
   );

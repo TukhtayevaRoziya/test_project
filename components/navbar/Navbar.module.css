@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.navbar__body {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__links {
+  width: 70%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 16px;
+}
+
+.navbar__links a {
+  color: #fff;
+  text-decoration: underline;
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 26px;
+}
+
+.navbar__links__btn {
+  width: 216px;
+  height: 58px;
+  background: #febf3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__links__btn button {
+  background: none;
+  border: none;
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 26px;
+}
+
+.navbar__links__btn button:hover {
+  background: none;
+  color: #fff;
+}
+
+.navbar__title {
+  margin: auto 0;
+
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

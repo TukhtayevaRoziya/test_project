@@ -1,7 +1,12 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Link from "next/link";
 import Head from "next/head";
-import { Login } from "../components/login/Login";
+
+import { Header } from "../components/header/Header";
+import { Navbar } from './../components/navbar/Navbar';
+import { Login } from './../components/login/Login';
+import { Analytics } from './../components/analytics/Analytics';
+
 export default function Index() {
   return (
     <div>
@@ -12,9 +17,10 @@ export default function Index() {
           rel="stylesheet"
         />
       </Head>
-      <Login />
-      <Link href={"/about"}>About</Link>
-      <Link href={"/posts"}>Posts</Link>
+      <Header />
+      <Navbar />
+<Login/>
+
     </div>
   );
 }
