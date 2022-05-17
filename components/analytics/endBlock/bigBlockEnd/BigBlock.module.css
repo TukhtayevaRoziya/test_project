@@ -1,0 +1,32 @@
+.bigBlock{
+  width:100%;
+  margin-top:30px;
+  background-color: #0D2B45;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bigBlock__title{
+  width: 55%
+}
+
+.bigBlock__title h1{
+  font-family: 'Mini Pixel-7' !important;
+font-style: normal;
+font-weight: 400 !important;
+font-size: 80px;
+line-height: 64px;
+color: #fff
+}
+
+.bigBlock__title h1 code{
+color: #FEBF3E !important;
+all: unset;
+}
+
+.bigBlock__text{
+  height:  100%;
+  width: 50%
+}
+

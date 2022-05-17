@@ -26,3 +26,38 @@ body{
 
 }
 
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
+    padding-bottom: 0 !important;
+    padding-top: 0  !important
+}
+
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child{
+    padding-top: 40px !important
+}
+
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R,
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:first-child {
+    width:100% !important
+}
+
+.EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:first-child,
+.EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:nth-child(2)
+
+{
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R{
+    width: 65%
+}
+
+.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R{
+    width: 100%
+}
