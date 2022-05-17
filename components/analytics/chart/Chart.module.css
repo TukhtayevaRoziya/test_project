@@ -2,8 +2,8 @@
   width: 70% !important;
   margin-top: 2rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .analytics__body__block__diagramma_box span{
@@ -13,7 +13,8 @@
 
 .analytics__body__block__diagramma_box canvas{
   width: 40% !important;
-  height: auto !important
+  height: auto !important;
+  margin: auto 3rem auto 0;
 }
 
 .analytics__body__block__diagramma_box__text_block{
@@ -96,14 +97,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 26px;
-/* identical to box height, or 81% */
-
 text-decoration-line: underline;
-
-/* yellow */
-
 color: #FEBF3E;
-
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 .analytics__body__block__box {

@@ -26,3 +26,16 @@ body{
 
 }
 
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
+    padding-bottom: 0 !important;
+    padding-top: 0  !important
+}
+
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child{
+    padding-top: 40px !important
+}
+
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R,
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:first-child {
+    width:100% !important
+}
