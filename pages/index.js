@@ -17,8 +17,8 @@ export default function Index() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
-      <Navbar />
+      {/* <Header />
+      <Navbar /> */}
 <Login/>
 
     </div>
