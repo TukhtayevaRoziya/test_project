@@ -49,7 +49,10 @@ body{
 }
 
 .EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R{
-    width: 65%
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child{
@@ -64,4 +67,27 @@ body{
 
 .BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__titles__7F2BN{
     padding: 15px 0;
+    
+    justify-content: flex-end;
+}
+
+.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__titles_2__Nkzzk div:first-child{
+    width: 57%
+}
+
+.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__titles_2__Nkzzk div:last-child h3{
+    text-align: end
+}
+
+@media (min-width:0) and (max-width:800px){
+    .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
+        width: 100% !important;
+        padding-top: 0 !important
+    }
+
+    .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:first-child,
+    .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:last-child
+    {
+        margin-bottom: 0
+    }
 }

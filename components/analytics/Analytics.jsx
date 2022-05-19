@@ -18,7 +18,7 @@ export const Analytics = () => {
         </h1>
         <a href="http://" target="_blank" rel="noopener noreferrer"></a>
         <h2 className={styles.analytics__body__title}>LAS analytics</h2>
-        <div className={styles.analytics__body__block}>
+        <div className={styles.analytics__body__block} >
           <AnalyticsBoxes
             title1={"Token Address"}
             txt1={"0xd4...8d53"}
@@ -41,7 +41,7 @@ export const Analytics = () => {
             txt4={"5,605"}
           />
         </div>
-       <ChartBox />
+       <ChartBox id='#mint'/>
        <BigBlock />
        <EndBlock/>
       </div>

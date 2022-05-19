@@ -51,7 +51,6 @@
   background: #0d2b45;
 }
 
-
 .analytics__body__block__box__titles {
   width: 100%;
   display: flex;
@@ -121,4 +120,37 @@
 
 .btn{
   display: none;
+}
+
+@media (min-width:0) and (max-width:800px){
+  .analytics__body__title{
+    font-size: 56px;
+    margin-bottom: 0
+  }
+  .analytics__body__block{
+    flex-direction: column;
+  }
+
+  .analytics__body__block__box{
+    width: 100%;
+    margin: 1rem 0 0 0
+  }
+  .analytics__body__block__box__titles{
+    flex-direction:  column
+  }
+  .analytics__body__block__box__titles div p {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0
+  }
+  .analytics__body__block__box__titles div:first-child{
+    width: 100%
+  }
+  .analytics__body__block__box__titles div h3{
+    text-align: center
+  }
+
+  .analytics__body__block__box__titles div{
+    margin-bottom: 2rem
+  }
 }

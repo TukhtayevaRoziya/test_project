@@ -76,7 +76,6 @@
   width: 30%
 }
 
-
 .analytics__body__block__desc_block{
   width: 25% !important;
   margin-top: 2rem;
@@ -107,4 +106,43 @@ color: #FEBF3E;
   width: 100%;
   padding: 10px;
   background: #0d2b45;
+}
+
+@media (min-width:0) and (max-width:800px){
+.analytics__body__block__diagramma_box{
+  width: 100% !important;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  align-items: center
+}
+.analytics__body__block__diagramma_box__text_block{
+  width: 100%
+}
+.analytics__body__block__desc_block{
+  width: 100% !important;
+}
+.analytics__body__block__desc_block .analytics__body__block__diagramma_box__text_block{
+  display: flex;
+  flex-wrap: wrap;
+}
+.analytics__body__block__desc_block__list_text{
+  padding-top: 0;
+  width: 100%;
+  text-align: center
+}
+.analytics__body__block__diagramma_box__title,
+.analytics__body__block__box__titles div:first-child{
+  width: 100%;
+  padding: 0;
+}
+.analytics__body__block__box__titles div p{
+  justify-content: center;
+}
+
+.analytics__body__block__box__titles div h3{
+  text-align: center;
+}
+.analytics__body__block__diagramma_box canvas{
+  margin: 40px 0 0 0
+}
 }

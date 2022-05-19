@@ -5,7 +5,6 @@ import Head from "next/head";
 import { Header } from "../components/header/Header";
 import { Navbar } from './../components/navbar/Navbar';
 import { Login } from './../components/login/Login';
-import { Analytics } from './../components/analytics/Analytics';
 
 export default function Index() {
   return (
@@ -17,8 +16,8 @@ export default function Index() {
           rel="stylesheet"
         />
       </Head>
-      {/* <Header />
-      <Navbar /> */}
+      <Header />
+      <Navbar />
 <Login/>
 
     </div>

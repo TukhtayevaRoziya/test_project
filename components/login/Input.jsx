@@ -3,6 +3,8 @@ import style from "./login.module.css";
 import { message, Checkbox } from "antd";
 import Image from "next/image";
 import img from "../../assets/Login1.svg";
+import Link  from 'next/link'
+import Router from 'next/router'
 
 export const Input = () => {
   const [message2, setMessage] = useState("");
@@ -21,6 +23,7 @@ export const Input = () => {
       message.error("You must enter information in the input");
     } else {
       message.success("Successfully completed");
+      Router.push('/home')
     }
   };
   return (
@@ -62,6 +65,7 @@ export const Input = () => {
   <input type="checkbox" className={style.Input__type__checkbox}/>
         <label className={style.Input__type__checkbox__label}>Check blacklisted wallets</label>
         </div>  
+
         <button type="button" onClick={handleClick}>
           Get info
         </button>
