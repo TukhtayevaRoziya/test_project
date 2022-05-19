@@ -155,6 +155,7 @@ export const Table2 = () => {
         dataSource={data}
         columns={mergedColumns}
         rowClassName="editable-row"
+        className='tablePage'
         pagination={{
           onChange: cancel,
         }}
