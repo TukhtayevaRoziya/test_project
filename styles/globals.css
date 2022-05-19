@@ -1,13 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @font-face {
     font-family: "Mini Pixel-7";
     src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
 }
 
-body{
+.ant-table.ant-table-bordered>.ant-table-container>.ant-table-content>table,
+.ant-table.ant-table-bordered>.ant-table-container>.ant-table-header>table {
+    background: #061e29;
+    color: white;
+    text-align: center
+}
+
+body {
     margin: 0;
     background-color: #061E29 !important;
 }
@@ -17,47 +23,58 @@ body{
     color: red;
 }
 
-.ant-popover-inner-content{
+.ant-popover-inner-content {
     padding: 0 !important
 }
 
-.ant-popover-arrow-content::before{
+.ant-popover-arrow-content::before {
     background: #848C93 !important;
 
 }
 
-.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R {
     padding-bottom: 0 !important;
-    padding-top: 0  !important
+    padding-top: 0 !important
 }
 
-.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child{
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child {
     padding-top: 40px !important
 }
 
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R,
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:first-child {
-    width:100% !important
+    width: 100% !important
 }
 
 .EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:first-child,
-.EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:nth-child(2)
-
-{
+.EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:nth-child(2) {
     width: 100%;
     padding-bottom: 0;
 }
 
-.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R{
+.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R {
     width: 65%
 }
 
-.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child{
+.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
 }
 
-.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R{
+.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R {
     width: 100%
+}
+
+.ant-table-pagination-right {
+    justify-content: center !important;
+    width: 100% !important;
+}
+.ant-pagination-options-size-changer.ant-select{
+    display: none !important;
+}
+.ant-table-cell
+:hover{
+color:red !important;
+background-color:red !important
 }
