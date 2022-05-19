@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Mini Pixel-7";
+  src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
+}
+.Wrapper {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+.Input__type__checkbox {
+  margin-top: 0.5rem;
+  color:white;
+}
+.Input__type__checkbox__label{
+  color:white;
+  margin-left:0.5rem;
+  font-family: 'Mini Pixel-7';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+}
+.Wrapper__Login {
+  background: #061e29;
+  height: 100vh;
+  width: 100%;
+}
+
+.login__input__blog__label {
+  font-family: "Mini Pixel-7";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #4f849e;
+}
+
+.Input__type__text {
+  width: 550px;
+  font-size:20px;
+  padding:0 10px;
+  color:white;
+  margin: 0.5rem 0;
+  border: 2px solid #365c7d;
+  height: 50px;
+  background: #0d2b45;
+}
+.login__input,
+.Login__Block {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.login__input {
+  background: #0d2b45;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 45px;
+}
+.login__input h1 {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  width: 462px;
+  color: #ffffff;
+}
+
+.login__input__blog button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 32px;
+  gap: 10px;
+  width: 550px;
+  margin-top:0.7rem;
+  height: 66px;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+  background: #FEBF3E;
+}
+
+.Login__Block h1 {
+  font-family: "VT323", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 106px;
+  line-height: 112px;
+  width: 745px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.Login__Block p {
+  font-family: "Mini Pixel-7";
+  font-style: normal;
+  width: 555px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #619ebb;
+}
+@media(min-width:0) and (max-width:600.9px){
+  .Input__type__text {
+    width: 80%;
+    height: 46px;
+  }
+  .login__input,
+  .Login__Block {
+    width: 100%;
+    margin-top:0.5rem;
+  }
+  .login__input {
+    padding: 0 15px;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+ 
+  .login__input h1 {
+    text-align:center;
+    font-size: 30px;
+    width: 100%;
+  }
+  .login__input__blog{
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .login__input__blog button {
+    padding: 20px 25px;
+    width: 80%;
+    margin:0.7rem auto;
+    height: 66px;
+  font-size: 18px;
+  }
+  
+  .Wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .Login__Block {
+    display: flex;
+    padding:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .Login__Block h1 {
+    text-align:center;
+    font-size: 40px;
+    line-height: 50px;
+    width: 100%;
+  }
+
+  .Login__Block p {
+    width: 100%;
+    text-align:center;
+    font-size: 19px;
+  }
+}
+@media(min-width:601px) and (max-width:1200.9px){
+  .Input__type__text {
+    width: 90%;
+  }
+  .login__input,
+  .Login__Block {
+    width: 100%;
+    margin-top:0.5rem;
+  }
+  .login__input {
+    padding:25px 15px;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+ 
+  .login__input h1 {
+    text-align:center;
+    font-size: 30px;
+    width: 100%;
+  }
+  .login__input__blog{
+    width:55%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .login__input__title{
+    width:40%
+  }
+  .login__input__blog button {
+    padding: 10px 15px;
+    width: 90%;
+    margin:0.7rem auto;
+    height: 66px;
+  font-size: 18px;
+  }
+  
+  .Wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .Login__Block {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+padding:10px;
+  }
+
+  .Login__Block h1 {
+    text-align:center;
+    font-size: 70px;
+    line-height:80px;
+    width:45%;
+  }
+
+  .Login__Block p {
+    width: 45%;
+    text-align:center;
+    font-size: 19px;
+  }
+}
+@media(min-width:1201px) and (max-width:1330.9px){
+  .Input__type__text {
+    width: 80%;
+  }
+  .login__input__blog{
+    width: 50%;
+  }
+  .login__input__blog button {
+    width: 80%;
+  }
+  .login__input__blog{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+}
