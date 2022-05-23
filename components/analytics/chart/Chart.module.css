@@ -41,7 +41,7 @@
 }
 
 .analytics__body__block__box__titles div p {
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -60,7 +60,7 @@
 }
 
 .analytics__body__block__box__titles div h3 {
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -72,7 +72,7 @@
 }
 
 .analytics__body__block__diagramma_box__title{
-  padding-left: 40px;
+  padding-top: 1rem;
   width: 30%
 }
 
@@ -91,7 +91,7 @@
 }
 
 .analytics__body__block__desc_block__list_text{
-  font-family: 'Mini Pixel-7';
+  font-family: "VT323", monospace;
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
@@ -104,7 +104,7 @@ color: #FEBF3E;
 
 .analytics__body__block__box {
   width: 100%;
-  padding: 10px;
+  padding: 40px;
   background: #0d2b45;
 }
 .analytics__body__block__desc_block__list_text{

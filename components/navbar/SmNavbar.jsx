@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import { Button, Drawer } from 'antd';
+import { AiOutlineMenu } from "react-icons/ai";
 import { RiTwitterFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
 
 import Link from "next/link";
+import Head from 'next/head';
 import Image from "next/image";
+
 import subtract from "../../assets/navbar/Subtract.png";
 
 import 'antd/dist/antd.css';
 import styles from "./Navbar.module.css";
-import Head from 'next/head';
 
 export const SmNavbar = () => {
   const [visible, setVisible] = useState(false);
@@ -37,7 +39,7 @@ export const SmNavbar = () => {
       <h1 className={styles.navbar__title}>LAS</h1>
 
       <Button type="primary" onClick={showDrawer}>
-        Open
+      <AiOutlineMenu/>
       </Button>
       </div>
       <Drawer title={'LAS'

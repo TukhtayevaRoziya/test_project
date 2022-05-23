@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
 }
 .Wrapper {
@@ -14,7 +14,7 @@
 .Input__type__checkbox__label{
   color:white;
   margin-left:0.5rem;
-  font-family: 'Mini Pixel-7';
+  font-family: "VT323", monospace;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -27,7 +27,7 @@ line-height: 26px;
 }
 
 .login__input__blog__label {
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -59,7 +59,7 @@ line-height: 26px;
   padding: 30px 45px;
 }
 .login__input h1 {
-  font-family: "Mini Pixel-7";
+  font-family: ;
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -96,7 +96,7 @@ line-height: 26px;
 }
 
 .Login__Block p {
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   width: 555px;
   font-weight: 400;

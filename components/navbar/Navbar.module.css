@@ -23,7 +23,7 @@
 .navbar__links a {
   color: #fff;
   text-decoration: underline;
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -42,7 +42,7 @@
 .navbar__links__btn button {
   background: none;
   border: none;
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -57,7 +57,7 @@
 .navbar__title {
   margin: auto 0;
 
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -95,5 +95,10 @@
     display: flex !important;
     justify-content: flex-end;
     margin: 2rem 1rem 0
+  }
+
+  .navbar__links a {
+    font-size: 20px;
+    line-height: 26px;
   }
 }

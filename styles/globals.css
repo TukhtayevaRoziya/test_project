@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
 }
 
@@ -22,7 +22,7 @@
 body {
   margin: 0;
   background-color: #061e29 !important;
-  font-family: "Mini Pixel-7" !important;
+  font-family: "VT323", monospace !important;
 }
 
 ::-webkit-scrollbar {
@@ -66,6 +66,11 @@ body {
 }
 
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br
+  .Analytics_analytics__body__block__box__mRd9R{
+    padding: 0 !important
+  }
+
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br
   .Analytics_analytics__body__block__box__mRd9R,
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br
   .Analytics_analytics__body__block__box__mRd9R
@@ -99,6 +104,13 @@ body {
 
 .BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R {
   width: 100%;
+}
+
+.ant-btn-primary{
+  color: #fff !important;
+  border: none !important;
+  background: transparent !important;
+  font-size: 20px !important
 }
 
 .ant-table-pagination-right {
@@ -251,7 +263,7 @@ body {
 .ant-drawer-title {
   margin: auto 0 !important;
 
-  font-family: "Mini Pixel-7";
+  font-family: "VT323", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 30px !important;
