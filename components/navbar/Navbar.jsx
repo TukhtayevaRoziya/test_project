@@ -45,7 +45,10 @@ export const Navbar = ({display}) => {
         </div>
       </div>
     </div>
+    <div className={"dNone"}>
+      
     <SmNavbar/>
+    </div>
     </>
   );
 };

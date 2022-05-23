@@ -66,3 +66,31 @@
 
   color: #ffffff;
 }
+
+.smNavbar_body{
+  display: none !important;
+}
+
+
+@media (min-width:0) and (max-width: 1200.9px){
+  .navbarSm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%
+  }
+  
+  .navbarSm a{
+    margin: 1rem 0
+  }
+
+  .navbar{
+    display: none
+  }
+
+  .smNavbar_body{
+    display: flex !important;
+    justify-content: flex-end;
+    margin: 2rem 1rem 0
+  }
+}

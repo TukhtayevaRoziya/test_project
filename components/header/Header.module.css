@@ -38,3 +38,9 @@
   text-decoration-line: underline;
   color: #febf3e;
 }
+
+@media (min-width:0) and (max-width: 1200.9px){
+  .header{
+    display: none
+  }
+}

@@ -1,5 +1,4 @@
 import { Analytics } from "./../components/analytics/Analytics";
-import Link from "next/link";
 import Head from "next/head";
 
 import { Header } from "../components/header/Header";

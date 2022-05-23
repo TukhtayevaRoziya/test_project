@@ -107,6 +107,19 @@ color:white;
     width: 40%
 }
 
+.ant-drawer-title{
+    margin: auto 0 !important;
+
+    font-family: "Mini Pixel-7";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px !important;
+    line-height: 30px;
+    text-transform: uppercase;
+  
+    color: #ffffff !important;
+}
+
 @media (min-width:0) and (max-width:1200px){
     .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
         width: 100% !important;
