@@ -1,6 +1,7 @@
 {
   "name": "test_project545",
   "version": "0.1.0",
+  "homepage": "https://TukhtayevaRoziya.github.io/test_project",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +10,9 @@
     "lint": "next lint",
     "build:css": "postcss styles/tailwind.css -o styles/main.css",
     "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch",
-    "prod:build": "NODE_ENV=production yarn run build:css && yarn run build"
+    "prod:build": "NODE_ENV=production yarn run build:css && yarn run build",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",
