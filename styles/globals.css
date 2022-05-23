@@ -1,15 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @font-face {
     font-family: "Mini Pixel-7";
     src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
 }
 
-body{
+.ant-table.ant-table-bordered>.ant-table-container>.ant-table-content>table,
+.ant-table.ant-table-bordered>.ant-table-container>.ant-table-header>table {
+    background: #061e29;
+    color: white;
+    text-align: center
+}
+
+body {
     margin: 0;
     background-color: #061E29 !important;
+    font-family: "Mini Pixel-7" !important;
 }
 
 ::selection {
@@ -17,33 +24,31 @@ body{
     color: red;
 }
 
-.ant-popover-inner-content{
+.ant-popover-inner-content {
     padding: 0 !important
 }
 
-.ant-popover-arrow-content::before{
+.ant-popover-arrow-content::before {
     background: #848C93 !important;
 
 }
 
-.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R {
     padding-bottom: 0 !important;
-    padding-top: 0  !important
+    padding-top: 0 !important
 }
 
-.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child{
+.Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child {
     padding-top: 40px !important
 }
 
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R,
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:first-child {
-    width:100% !important
+    width: 100% !important
 }
 
 .EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:first-child,
-.EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:nth-child(2)
-
-{
+.EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:nth-child(2) {
     width: 100%;
     padding-bottom: 0;
 }
@@ -55,31 +60,54 @@ body{
     justify-content: space-between;
 }
 
-.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child{
+.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
 }
 
-.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R{
+.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R {
     width: 100%
 }
 
-.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__titles__7F2BN{
-    padding: 15px 0;
-    
-    justify-content: flex-end;
+.ant-table-pagination-right {
+    justify-content: center !important;
+    width: 100% !important;
+}
+.ant-pagination-options-size-changer.ant-select{
+    display: none !important;
+}
+.ant-table-cell
+:hover{
+color:red !important;
+background-color:red !important
+}
+.tablePage{
+    overflow:auto;
+}
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > tfoot > tr > td{
+background-color:#061e29;
+text-align:center;
+color:white;
+}
+.myTable{
+    width:80%;
+    margin: 2rem auto
 }
 
-.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__titles_2__Nkzzk div:first-child{
-    width: 57%
+.none{
+    display: none !important
 }
 
-.BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__titles_2__Nkzzk div:last-child h3{
-    text-align: end
+.margin{
+    padding-bottom: 3rem !important
 }
 
-@media (min-width:0) and (max-width:800px){
+.margin .Navbar_navbar__links__kkPCY{
+    width: 40%
+}
+
+@media (min-width:0) and (max-width:1200px){
     .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
         width: 100% !important;
         padding-top: 0 !important
@@ -112,4 +140,13 @@ body{
     .BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R .Analytics_analytics__body__block__box__titles__7F2BN{
         flex-direction: row
     }
+}
+.ant-drawer-wrapper-body{
+    background-color: #061e29;
+}
+.ant-drawer-header{
+    background-color: #061e29 !important ;
+}
+.anticon svg{
+    color:white;
 }

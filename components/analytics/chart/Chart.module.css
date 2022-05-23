@@ -107,8 +107,10 @@ color: #FEBF3E;
   padding: 10px;
   background: #0d2b45;
 }
-
-@media (min-width:0) and (max-width:800px){
+.analytics__body__block__desc_block__list_text{
+  cursor:pointer
+}
+@media (min-width:0) and (max-width:1200px){
 .analytics__body__block__diagramma_box{
   width: 100% !important;
   padding-bottom: 3rem;
