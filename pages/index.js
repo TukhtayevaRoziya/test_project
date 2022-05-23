@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-page-custom-font */
 import Link from "next/link";
 import Head from "next/head";
 
