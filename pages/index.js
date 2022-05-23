@@ -3,8 +3,8 @@ import Link from "next/link";
 import Head from "next/head";
 
 import { Header } from "../components/header/Header";
-import { Navbar } from './../components/navbar/Navbar';
-import { Login } from './../components/login/Login';
+import { Navbar } from "./../components/navbar/Navbar";
+import { Login } from "./../components/login/Login";
 
 export default function Index() {
   return (
@@ -18,8 +18,7 @@ export default function Index() {
       </Head>
       <Header />
       <Navbar />
-<Login/>
-
+      <Login />
     </div>
   );
 }
