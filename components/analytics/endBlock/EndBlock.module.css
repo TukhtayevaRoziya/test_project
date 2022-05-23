@@ -9,3 +9,9 @@
 .endBlock__box1{
   width: 30%
 }
+
+@media (min-width:0) and (max-width:800px){
+  .endBlock__box1{
+    width: 100%
+  }
+}

@@ -9,7 +9,7 @@ export const BigBlock = () => {
   return (
     <div className={styles.bigBlock} id='stake'>
       <div className={styles.bigBlock__title}>
-        <h1><code> Hierarchy </code> of wallet types and their number</h1>
+        <h1><code> Top 10 wallets </code> holds 14% of circulating supply</h1>
         </div>
       <div className={styles.bigBlock__img}>
         <Image src={picture} alt={''}/>

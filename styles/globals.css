@@ -90,4 +90,26 @@ body{
     {
         margin-bottom: 0
     }
+
+    .EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R{
+        width: 100%;
+    }
+
+    .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R div:last-child{
+        display: none
+    }
+
+    .EndBlock_endBlock__dXOBG .EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:nth-child(2){
+        margin-top:0;
+        padding-top: 0;
+    }
+    .EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child{
+        padding: 0
+    }
+    .BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R .Analytics_analytics__body__block__box__titles__7F2BN div{
+        width: 48%
+    }
+    .BigBlock_bigBlock__text__xaa_9 .Analytics_analytics__body__block__box__mRd9R .Analytics_analytics__body__block__box__titles__7F2BN{
+        flex-direction: row
+    }
 }

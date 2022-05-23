@@ -31,3 +31,19 @@ all: unset;
   margin: auto 0;
 }
 
+@media (min-width:0) and (max-width:800px){
+  .bigBlock{
+    flex-direction: column
+  }
+  .bigBlock__title{
+    width: 100%;
+    text-align: center
+  }
+  
+.bigBlock__title h1{
+  margin-bottom:0
+}
+.bigBlock__text{
+  width: 100%
+}
+}
