@@ -4,7 +4,7 @@ import {AnalyticsBoxes} from '../AnalyticsBoxes'
 import { BigBlock } from "./bigBlockEnd/BigBlock";
 
 import styles from './EndBlock.module.css'
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const EndBlock = () => {
   return (

@@ -4,7 +4,7 @@ import { Button, Popover } from "antd";
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 const content = (
   <div className={styles.content}>

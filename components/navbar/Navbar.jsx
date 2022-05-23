@@ -10,7 +10,7 @@ import subtract from "../../assets/navbar/Subtract.png";
 import {SmNavbar} from './SmNavbar'
 
 import styles from "./Navbar.module.css";
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const Navbar = ({display, smDisplay, smNavbarDisplay}) => {
   return (

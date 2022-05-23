@@ -9,7 +9,7 @@ import subtract from "../../assets/navbar/Subtract.png";
 
 import 'antd/dist/antd.css';
 import styles from "./Navbar.module.css";
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const SmNavbar = () => {
   const [visible, setVisible] = useState(false);

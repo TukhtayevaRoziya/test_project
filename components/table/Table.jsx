@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Table, Input, InputNumber, Popconfirm, Form, Typography } from 'antd';
-import { Head } from 'next/head';
+import Head from 'next/head';
 const originData = [];
 
 for (let i = 0; i < 100; i++) {

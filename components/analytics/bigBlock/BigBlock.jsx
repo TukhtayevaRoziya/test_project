@@ -4,7 +4,7 @@ import {AnalyticsBoxes} from '../AnalyticsBoxes'
 import picture from '../../../assets/home/wallet.png'
 
 import styles from './BigBlock.module.css'
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const BigBlock = () => {
   return (

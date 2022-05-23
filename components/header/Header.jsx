@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Header.module.css";
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const Header = () => {
   return (

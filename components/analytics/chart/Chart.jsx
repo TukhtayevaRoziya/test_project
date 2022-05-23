@@ -6,7 +6,7 @@ import { Table2 } from "../../table/Table"
 import { AnalyticsBoxes } from "./../AnalyticsBoxes";
 
 import styles from "./Chart.module.css";
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 

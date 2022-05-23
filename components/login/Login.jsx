@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./login.module.css";
 import { Input } from "./Input";
-import { Head } from 'next/head';
+import Head from 'next/head';
 export const Login = () => {
   return (
     <div className={style.Wrapper__Login}>

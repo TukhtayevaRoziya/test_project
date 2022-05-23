@@ -5,7 +5,7 @@ import Image from "next/image";
 import img from "../../assets/Login1.svg";
 import Link  from 'next/link'
 import Router from 'next/router'
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const Input = () => {
   const [message2, setMessage] = useState("");

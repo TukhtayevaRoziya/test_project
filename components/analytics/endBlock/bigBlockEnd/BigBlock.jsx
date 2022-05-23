@@ -3,7 +3,7 @@ import Image from "next/image";
 import { AnalyticsBoxes } from "../../AnalyticsBoxes";
 
 import styles from './BigBlock.module.css'
-import { Head } from 'next/head';
+import Head from 'next/head';
 
 export const BigBlock = () => {
   return (
