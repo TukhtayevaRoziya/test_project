@@ -125,7 +125,8 @@
 @media (min-width:0) and (max-width:1200px){
   .analytics__body__title{
     font-size: 56px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    margin-top: 0
   }
   .analytics__body__block{
     flex-direction: column;

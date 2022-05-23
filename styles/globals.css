@@ -19,10 +19,26 @@ body {
     font-family: "Mini Pixel-7" !important;
 }
 
+::-webkit-scrollbar {
+    height: 10px;
+    width: 8px;
+    background-color: #fff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #e1e6e7, #0d2b45);
+    border-radius: 5px;
+  }
+
 ::selection {
-    background-color: var(--geist-selection);
+    background-color: red;
     color: red;
 }
+
+::-moz-selection {
+    background: red !important;
+    color: #000 !important;
+  }
 
 .ant-popover-inner-content {
     padding: 0 !important
@@ -39,7 +55,7 @@ body {
 }
 
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R:first-child {
-    padding-top: 40px !important
+    padding: 40px 0 0;
 }
 
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R,
@@ -79,7 +95,7 @@ body {
 }
 .ant-table-cell
 :hover{
-color:red !important;
+   color: #fff5f5 !important; 
 background-color:red !important
 }
 .tablePage{
@@ -120,11 +136,24 @@ color:white;
     color: #ffffff !important;
 }
 
-@media (min-width:0) and (max-width:1200px){
+@media (min-width:0) and (max-width:1200.9px){
     .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R{
         width: 100% !important;
         padding-top: 0 !important
     }
+    .margin .Navbar_navbar__links__kkPCY{
+        width: 100%
+    }
+
+    .margin .Navbar_navbar__body__NfAP_{
+        flex-direction: column
+    }
+
+    
+  .smDisplay,
+  .smNavbarDisplay{
+    display: none !important
+  }
 
     .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:first-child,
     .Chart_analytics__body__block__diagramma_box__text_block__6x8br .Analytics_analytics__body__block__box__mRd9R div:last-child

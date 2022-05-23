@@ -41,7 +41,7 @@ export const ChartBox = () => {
           styles.analytics__body__block__diagramma_box +
           " " +
           styles.analytics__body__block__box
-        }
+        } id={'liveChart'}
       >
         <div
           className={styles.analytics__body__block__diagramma_box__text_block}

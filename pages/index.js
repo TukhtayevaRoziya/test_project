@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <div>
       <Head>
-        <title>Art box</title>
+        <title>LAS ANALYTICS</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -22,7 +22,8 @@ export default function Index() {
         />
       </Head>
       <Header />
-      <Navbar />
+      <Navbar smDisplay={'smDisplay'}/>
+
       <Login />
     </div>
   );

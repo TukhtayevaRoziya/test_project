@@ -84,8 +84,11 @@
     margin: 1rem 0
   }
 
-  .navbar{
-    display: none
+  .navbarHeader{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
   }
 
   .smNavbar_body{

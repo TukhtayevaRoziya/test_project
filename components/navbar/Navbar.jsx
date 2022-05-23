@@ -11,12 +11,12 @@ import {SmNavbar} from './SmNavbar'
 
 import styles from "./Navbar.module.css";
 
-export const Navbar = ({display}) => {
+export const Navbar = ({display, smDisplay, smNavbarDisplay}) => {
   return (
     <>
-    <div className={styles.navbar}>
+    <div className={styles.navbar + ' ' + smDisplay}>
       <div className={styles.navbar__body}>
-        <h1 className={styles.navbar__title}>LAS</h1>
+        <h1 className={styles.navbar__title}>LAS</h1>x
         <div className={styles.navbar__links}>
           <Link href={"#mint"}>Mint</Link>
           <Link href={"#stake"}>Stake</Link>
@@ -45,7 +45,7 @@ export const Navbar = ({display}) => {
         </div>
       </div>
     </div>
-    <div className={"dNone"}>
+    <div className={"dNone " + smNavbarDisplay}>
       
     <SmNavbar/>
     </div>

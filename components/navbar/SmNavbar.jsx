@@ -1,13 +1,14 @@
-import { Button, Drawer } from 'antd';
 import { useState } from 'react';
-import 'antd/dist/antd.css';
-import styles from "./Navbar.module.css";
-import Link from "next/link";
+import { Button, Drawer } from 'antd';
 import { RiTwitterFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
+
+import Link from "next/link";
 import Image from "next/image";
 import subtract from "../../assets/navbar/Subtract.png";
 
+import 'antd/dist/antd.css';
+import styles from "./Navbar.module.css";
 
 export const SmNavbar = () => {
   const [visible, setVisible] = useState(false);
@@ -22,9 +23,13 @@ export const SmNavbar = () => {
 
   return (
     <div className={styles.smNavbar_body}>
+      <div className={styles.navbarHeader}>
+      <h1 className={styles.navbar__title}>LAS</h1>
+
       <Button type="primary" onClick={showDrawer}>
         Open
       </Button>
+      </div>
       <Drawer title={'LAS'
       
       } placement="right" onClose={onClose} visible={visible}>

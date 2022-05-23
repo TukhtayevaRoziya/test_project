@@ -6,7 +6,7 @@ import styles from './BigBlock.module.css'
 
 export const BigBlock = () => {
   return (
-    <div className={styles.bigBlock}>
+    <div className={styles.bigBlock} id={'whitepaper'}>
       <div className={styles.bigBlock__title}>
         <h1><code> Hierarchy </code> of wallet types and their number</h1>
         </div>

@@ -1,29 +1,31 @@
-import { Analytics } from "./../components/analytics/Analytics";
 import Head from "next/head";
 
 import { Header } from "../components/header/Header";
-import { Navbar } from "./../components/navbar/Navbar";
 import { Table2 } from "./../components/table/Table";
+import { Navbar } from "./../components/navbar/Navbar";
+import { Analytics } from "./../components/analytics/Analytics";
 
 const Home = () => {
   return (
     <div >
-      <Head>
-        <title>Art box</title>
+     <Head>
+        <title>LAS ANALYTICS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
           rel="stylesheet"
         />
       </Head>
       <Header />
-      <Navbar />
+      <Navbar smDisplay={'smDisplay'}/>
       <Analytics />
       <div className={"myTable"}>
         <Table2 />
       </div>
       <div className={'margin'}>
 
-      <Navbar display='none'/>
+      <Navbar display='none' smNavbarDisplay={'smNavbarDisplay'}/>
       </div>
     </div>
   );
