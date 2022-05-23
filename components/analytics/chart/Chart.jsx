@@ -6,6 +6,7 @@ import { Table2 } from "../../table/Table"
 import { AnalyticsBoxes } from "./../AnalyticsBoxes";
 
 import styles from "./Chart.module.css";
+import { Head } from 'next/head';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -43,6 +44,15 @@ export const ChartBox = () => {
           styles.analytics__body__block__box
         } id={'liveChart'}
       >
+            <Head>
+        <title>LAS ANALYTICS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
         <div
           className={styles.analytics__body__block__diagramma_box__text_block}
         >

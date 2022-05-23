@@ -9,6 +9,7 @@ import subtract from "../../assets/navbar/Subtract.png";
 
 import 'antd/dist/antd.css';
 import styles from "./Navbar.module.css";
+import { Head } from 'next/head';
 
 export const SmNavbar = () => {
   const [visible, setVisible] = useState(false);
@@ -23,6 +24,15 @@ export const SmNavbar = () => {
 
   return (
     <div className={styles.smNavbar_body}>
+          <Head>
+        <title>LAS ANALYTICS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <div className={styles.navbarHeader}>
       <h1 className={styles.navbar__title}>LAS</h1>
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Table, Input, InputNumber, Popconfirm, Form, Typography } from 'antd';
+import { Head } from 'next/head';
 const originData = [];
 
 for (let i = 0; i < 100; i++) {
@@ -145,6 +146,15 @@ export const Table2 = () => {
   });
   return (
     <Form form={form} component={false}>
+          <Head>
+        <title>LAS ANALYTICS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <Table
         components={{
           body: {

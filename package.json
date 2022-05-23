@@ -12,7 +12,7 @@
     "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch",
     "prod:build": "NODE_ENV=production yarn run build:css && yarn run build",
     "predeploy": "npm run build",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
+   "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",
@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "babel-plugin-transform-define": "^2.0.1",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "postcss": "^8.4.13",
