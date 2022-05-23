@@ -14,11 +14,11 @@ export const Navbar = () => {
       <div className={styles.navbar__body}>
         <h1 className={styles.navbar__title}>LAS</h1>
         <div className={styles.navbar__links}>
-          <Link href={"/mint"}>Mint</Link>
-          <Link href={"/stake"}>Stake</Link>
-          <Link href={"/liveChart"}>Live Chart</Link>
-          <Link href={"/whitepaper"}>Whitepaper</Link>
-          <Link href={"/whitepaper"}>
+          <Link href={"#mint"}>Mint</Link>
+          <Link href={"#stake"}>Stake</Link>
+          <Link href={"#liveChart"}>Live Chart</Link>
+          <Link href={"#whitepaper"}>Whitepaper</Link>
+          <Link href={"#whitepaper"}>
             <a>
               <FaTelegramPlane />
             </a>

@@ -16,6 +16,7 @@
 body {
     margin: 0;
     background-color: #061E29 !important;
+    font-family: "Mini Pixel-7" !important;
 }
 
 ::selection {
@@ -52,8 +53,11 @@ body {
     padding-bottom: 0;
 }
 
-.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R {
-    width: 65%
+.EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .EndBlock_endBlock__dXOBG .Analytics_analytics__body__block__box__mRd9R:last-child {
@@ -86,4 +90,13 @@ background-color:#061e29;
 text-align:center;
 color:white;
 
+}
+.ant-drawer-wrapper-body{
+    background-color: #061e29;
+}
+.ant-drawer-header{
+    background-color: #061e29 !important ;
+}
+.anticon svg{
+    color:white;
 }
