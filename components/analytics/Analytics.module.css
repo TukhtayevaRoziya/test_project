@@ -126,8 +126,14 @@
   .analytics__body__title{
     font-size: 56px;
     margin-bottom: 0;
-    margin-top: 0
+    margin-top: 0;
+    line-height: 64px;
   }
+
+  .analytics__body__check{
+    font-size: 24px
+  }
+
   .analytics__body__block__box__titles div h3{
     font-size: 20px
   }
