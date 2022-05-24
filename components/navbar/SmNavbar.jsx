@@ -67,7 +67,7 @@ export const SmNavbar = () => {
         </div>
       <div className={styles.smNavbar__imgs}>
         {/* <div className={styles.smNavbar__imgs__duck}> */}
-        <Image className={styles.smNavbar__imgs__duck} src={duck} />
+        <Image className={styles.smNavbar__imgs__duck} src={duck} alt={''}/>
         {/* </div> */}
         {/* <Image src={smNavbar} /> */}
         </div>
