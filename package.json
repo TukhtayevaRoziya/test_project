@@ -12,7 +12,7 @@
     "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch",
     "prod:build": "NODE_ENV=production yarn run build:css && yarn run build",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",

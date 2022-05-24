@@ -1,48 +1,51 @@
-@font-face {
-  font-family: "VT323", monospace;
-  src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
+.Wrapper__Img{
+display: flex;
+}
+.block__duck__img{
+  margin-top:1.7rem !important;
 }
 .Wrapper {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 80px;
   justify-content: center;
 }
-.Input__type__checkbox {
-  margin-top: 0.5rem;
-  color:white;
-}
-.Input__type__checkbox__label{
-  color:white;
-  margin-left:0.5rem;
-  font-family: "VT323", monospace;
+
+
+.Input__type__checkbox__label {
+color:white;
+margin-left:1rem;
+font-family: 'Mini Pixel-7';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 32px;
 line-height: 26px;
 }
 .Wrapper__Login {
   background: #061e29;
-  height: 100vh;
   width: 100%;
 }
 
 .login__input__blog__label {
-  font-family: "VT323", monospace;
+  font-family: "Mini Pixel-7";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 32px;
   line-height: 26px;
   color: #4f849e;
 }
-
+.Input__type__text:focus{
+  border: 3px solid #febf3e;
+  outline :none;
+}
 .Input__type__text {
-  width: 550px;
-  font-size:20px;
+  width: 650px;
+  font-size: 40px;
   padding:0 10px;
   color:white;
-  margin: 0.5rem 0;
-  border: 2px solid #365c7d;
-  height: 50px;
-  background: #0d2b45;
+  font-family: 'Mini Pixel-7';
+  margin: 12px 0 32px 0;
+  border: 3px solid #365c7d;
+  height: 63px;
+  background: rgb(79 132 158 / var(--tw-border-opacity));
 }
 .login__input,
 .Login__Block {
@@ -56,58 +59,66 @@ line-height: 26px;
   margin: 0 auto;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 30px 45px;
+  padding: 64px 64px 0 0;
 }
 .login__input h1 {
-  font-family: ;
   font-style: normal;
+  font-family: "Mini Pixel-7";
   font-weight: 400;
-  font-size: 60px;
+  margin:44px 0 50px 64px ;
+  font-size: 80px;
   line-height: 64px;
   width: 462px;
   color: #ffffff;
 }
-
+.login__input__blog button:hover {
+  background-color: #eab308;
+}
 .login__input__blog button {
   display: flex;
+  font-family: "Mini Pixel-7";
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 25px 32px;
   gap: 10px;
-  width: 550px;
-  margin-top:0.7rem;
-  height: 66px;
-font-weight: 700;
-font-size: 20px;
+  width: 650px;
+    margin-top:40px;
+    height: 76px;
+font-family: "Mini Pixel-7";
+font-size: 32px;
 line-height: 26px;
-  background: #FEBF3E;
+  background: #febf3e
+  ;
 }
 
 .Login__Block h1 {
-  font-family: "VT323", monospace;
+  font-family: "Mini Pixel-7";
   font-style: normal;
   font-weight: 400;
-  font-size: 106px;
+  font-size: 176px;
+  text-transform: uppercase;
   line-height: 112px;
   width: 745px;
-  text-transform: uppercase;
   color: #ffffff;
 }
 
 .Login__Block p {
-  font-family: "VT323", monospace;
+  font-family: "Mini Pixel-7";
   font-style: normal;
-  width: 555px;
+  width: 565px;
+  margin-top:-4rem;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 40px;
   line-height: 32px;
   color: #619ebb;
 }
-@media(min-width:0) and (max-width:600.9px){
+@media(min-width:0) and (max-width:800.9px){
   .Input__type__text {
     width: 80%;
     height: 46px;
+  }
+  .Wrapper__Img{
+    display:none
   }
   .login__input,
   .Login__Block {
@@ -115,16 +126,18 @@ line-height: 26px;
     margin-top:0.5rem;
   }
   .login__input {
-    padding: 0 15px;
     width: 100%;
     flex-wrap:wrap;
+    padding: 40px 0 0 0;
     justify-content: center;
   }
  
   .login__input h1 {
     text-align:center;
-    font-size: 30px;
-    width: 100%;
+    font-size: 56px;
+    width: 90%;
+    margin:0 0 1rem 0 ;
+    line-height:44px
   }
   .login__input__blog{
     width:100%;
@@ -145,27 +158,29 @@ line-height: 26px;
     flex-wrap:wrap;
     justify-content: center;
   }
+  .Wrapper__Login {
+  padding:0 24px;
+  }
   .Login__Block {
     display: flex;
-    padding:20px;
     flex-wrap:wrap;
     justify-content: center;
   }
 
   .Login__Block h1 {
-    text-align:center;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 104px;
+    line-height: 72px;
     width: 100%;
   }
 
   .Login__Block p {
     width: 100%;
-    text-align:center;
-    font-size: 19px;
+    line-height: 32px;
+    margin-top:1px;
+    font-size: 32px;
   }
 }
-@media(min-width:601px) and (max-width:1200.9px){
+@media(min-width:801px) and (max-width:1200.9px){
   .Input__type__text {
     width: 90%;
   }
@@ -193,7 +208,7 @@ line-height: 26px;
     justify-content: center;
   }
   .login__input__title{
-    width:40%
+    width:40%;
   }
   .login__input__blog button {
     padding: 10px 15px;
@@ -227,8 +242,11 @@ padding:10px;
     text-align:center;
     font-size: 19px;
   }
+  .Wrapper__Login {
+    padding:0 14px;
+    }
 }
-@media(min-width:1201px) and (max-width:1330.9px){
+@media(min-width:1201px) and (max-width:1300.9px){
   .Input__type__text {
     width: 80%;
   }
@@ -242,5 +260,13 @@ padding:10px;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+  }
+}
+@media(min-width:1301px) and (max-width:1484.9px){
+  .login__input__blog button {
+    width: 500px;
+  }
+  .Input__type__text {
+    width: 500px;
   }
 }
