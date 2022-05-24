@@ -15,15 +15,6 @@ import Head from 'next/head';
 export const Navbar = ({display, smDisplay, smNavbarDisplay}) => {
   return (
     <>
-        <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
     <div className={styles.navbar + ' ' + smDisplay}>
       <div className={styles.navbar__body}>
         <h1 className={styles.navbar__title}>LAS</h1>x

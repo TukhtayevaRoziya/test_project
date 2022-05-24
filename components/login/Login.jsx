@@ -1,6 +1,9 @@
 import React from "react";
 import style from "./login.module.css";
 import { Input } from "./Input";
+
+import {Navbar} from '../navbar/Navbar'
+
 export const Login = () => {
   return (
     <div className={style.Wrapper__Login}>
@@ -16,6 +19,9 @@ export const Login = () => {
         </div>
       </div>
       <Input />
+      <div className={style.Footer__Stayle}>
+      <Navbar display='none' smNavbarDisplay={'smNavbarDisplay'}/>
+      </div>
     </div>
   );
 };

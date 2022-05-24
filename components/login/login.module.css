@@ -4,6 +4,9 @@ display: flex;
 .block__duck__img{
   margin-top:1.7rem !important;
 }
+.Footer__Stayle{
+  margin:99px 0 35px 0  ;
+}
 .Wrapper {
   display: flex;
   margin-top: 80px;
@@ -59,13 +62,13 @@ line-height: 26px;
   margin: 0 auto;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 64px 64px 0 0;
+  padding: 54px 64px 0 0;
 }
 .login__input h1 {
   font-style: normal;
   font-family: "Mini Pixel-7";
   font-weight: 400;
-  margin:44px 0 50px 64px ;
+  margin:44px 0 64px 64px ;
   font-size: 80px;
   line-height: 64px;
   width: 462px;
@@ -105,7 +108,7 @@ line-height: 26px;
 .Login__Block p {
   font-family: "Mini Pixel-7";
   font-style: normal;
-  width: 565px;
+  width: 555px;
   margin-top:-4rem;
   font-weight: 400;
   font-size: 40px;
