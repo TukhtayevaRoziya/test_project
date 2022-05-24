@@ -6,8 +6,20 @@
   font-family: 'Mini Pixel-7';;
   src: url('../fonts/mini_pixel-7.ttf') format('woff2');
 }
-/* eab308 */
 
+.ant-checkbox-checked .ant-checkbox-inner{
+  background: #febf3e !important ;
+  height: 24px  !important ;
+  width: 24px  !important ;
+  color:black !important;
+}
+.ant-checkbox-inner{
+  height: 24px  !important ;
+  border:3px solid #365c7d !important;
+  width: 24px  !important ;
+  background: transparent !important ;
+
+}
 .ant-table.ant-table-bordered
   > .ant-table-container
   > .ant-table-content

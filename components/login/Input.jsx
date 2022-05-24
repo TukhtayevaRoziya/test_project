@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import style from "./login.module.css";
 import { message, Checkbox } from "antd";
 import Image from "next/image";
-import img from "../../assets/Login1.svg";
+import duck from "../../assets/duck.gif";
+import img from "../../assets/logintext.svg";
 import Link  from 'next/link'
 import Router from 'next/router'
 
@@ -19,20 +20,21 @@ export const Input = () => {
 
   const handleClick = (event) => {
     event.preventDefault();
-    if (message2 === "" ||  message3==="") {
-      message.error("You must enter information in the input");
-    } else {
-      message.success("Successfully completed");
-      Router.push('/home')
-    }
+    message.warning("Successfully completed");
   };
   return (
     <div className={style.login__input}>
       <div className={style.login__input__title}>
         <h1>Get info about your Token</h1>
+        <div className={style.Wrapper__Img}>
+            <Image className={style.block__duck__img}
+          src={duck}
+          alt="rasm bor edi!" />
         <Image
           src={img}
           alt="rasm bor edi!" />
+        </div>
+      
       </div>
       <div className={style.login__input__blog}>
         <label className={style.login__input__blog__label} htmlFor="text">
@@ -62,8 +64,8 @@ export const Input = () => {
         className={style.Input__type__text} />
         <br />
         <div>
-  <input type="checkbox" className={style.Input__type__checkbox}/>
-        <label className={style.Input__type__checkbox__label}>Check blacklisted wallets</label>
+        <Checkbox/>
+  <label className={style.Input__type__checkbox__label}>Check blacklisted wallets</label>
         </div>  
 
         <button type="button" onClick={handleClick}>
