@@ -61,7 +61,7 @@ export const Table2 = () => {
       ...record,
     });
     setEditingKey(record.key);
-  };
+  }; 
 
   const cancel = () => {
     setEditingKey('');
