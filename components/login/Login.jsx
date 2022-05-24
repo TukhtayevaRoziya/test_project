@@ -1,6 +1,7 @@
 import { Input } from "./Input";
 
 import style from "./login.module.css";
+import {Navbar} from '../navbar/Navbar'
 
 export const Login = () => {
   return (
@@ -17,6 +18,12 @@ export const Login = () => {
         </div>
       </div>
       <Input />
+      <div className={style.Footer__Stayle}>
+      <div className={'margin'}>
+
+      <Navbar display='none' smNavbarDisplay={'smNavbarDisplay'}/>
+      </div>
+      </div>
     </div>
   );
 };
