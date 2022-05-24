@@ -1,10 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
-  font-family: "VT323", monospace;
-  src: url(https://fonts.googleapis.com/css2?family=Inter&display=optional);
+  font-family: 'Mini Pixel-7';;
+  src: url('../fonts/mini_pixel-7.ttf') format('woff2');
 }
+/* eab308 */
 
 .ant-table.ant-table-bordered
   > .ant-table-container
@@ -22,7 +24,8 @@
 body {
   margin: 0;
   background-color: #061e29 !important;
-  font-family: "VT323", monospace !important;
+  font-family: 'Mini Pixel-7' !important;
+  overflow-x: hidden
 }
 
 ::-webkit-scrollbar {
@@ -50,8 +53,18 @@ body {
   padding: 40px !important;
 }
 
+a.ant-typography {
+  font-size: 20px !important;
+  color: #febf3e !important;
+  text-decoration: underline !important;
+}
+
 .ant-popover-arrow-content::before {
   background: #848c93 !important;
+}
+
+.ant-popover-inner-content{
+  padding: 0 !important;
 }
 
 .Chart_analytics__body__block__diagramma_box__text_block__6x8br
@@ -122,7 +135,7 @@ body {
 }
 .ant-table-cell :hover {
   color: #fff5f5 !important;
-  background-color: red !important;
+  background-color: #061e29b1 !important;
 }
 .tablePage {
   overflow: auto;
@@ -263,7 +276,7 @@ body {
 .ant-drawer-title {
   margin: auto 0 !important;
 
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 30px !important;
@@ -273,14 +286,105 @@ body {
   color: #ffffff !important;
 }
 
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link{
+    background-color: transparent !important;
+    border: none !important
+}
+
+.ant-table-thead .ant-table-cell{
+  font-family: 'Mini Pixel-7';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  color: #619EBB !important;
+}
+
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis{
+  color: #4F849E !important
+}
+
+.EndBlock_endBlock__box1__fHiXW .Analytics_analytics__body__block__box__mRd9R:last-child{
+  padding-top: 0
+}
+
+.ant-table-cell{
+  border-right: none !important;
+  border-left: none !important;
+  border-top: none !important;
+}
+
+.ant-table-content table,
+.ant-table-container{
+  border: none !important
+}
+
+.ant-pagination-item{
+  background: transparent !important
+}
+
+.ant-pagination-item-active{
+  background: #0D2B45 !important;
+  border-color: transparent !important;
+}
+
+.ant-pagination-item{
+  border: none !important
+}
+
+.ant-pagination-item-active a{
+  color: #fff !important
+}
+
+.ant-pagination-item a{
+  color: #4F849E !important;
+  font-family: 'Mini Pixel-7';
+  font-weight: 400;
+  font-size: 24px;
+}
+
+tr.ant-table-row.ant-table-row-level-0.editable-row td.ant-table-cell:nth-child(1){
+  font-size: 24px
+}
+
+tr.ant-table-row.ant-table-row-level-0.editable-row:nth-child(odd) td.ant-table-cell:nth-child(2) span {
+  color: #fff;
+  background: red;
+  border: none;
+  font-size: 20px;
+}
+tr.ant-table-row.ant-table-row-level-0.editable-row:nth-child(even) td.ant-table-cell:nth-child(2) span {
+  color: #fff;
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 133 76 / var(--tw-bg-opacity));
+  border: none;
+  font-size: 20px;
+}
+
+
+
 @media (min-width: 0) and (max-width: 1200.9px) {
+  .ant-drawer-header-title{
+    flex-direction: row-reverse;
+  }
+  .ant-drawer-header{
+    border: none !important;
+    margin-top: 1rem
+  }
+
+  .ant-drawer-body{
+    padding: 0 !important;
+    overflow-x: hidden !important;
+  }
+
   .Chart_analytics__body__block__diagramma_box__text_block__6x8br
     .Analytics_analytics__body__block__box__mRd9R {
     width: 100% !important;
     padding-top: 0 !important;
   }
-  .margin .Navbar_navbar__links__kkPCY {
-    width: 100%;
+  .margin .Navbar_navbar__links__kkPCY,
+  .ant-drawer-content-wrapper {
+    width: 100% !important;
   }
 
   .ant-popover-inner-content {
@@ -338,10 +442,11 @@ body {
   }
 }
 .ant-drawer-wrapper-body {
-  background-color: #061e29;
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 158 187 / var(--tw-bg-opacity));
 }
 .ant-drawer-header {
-  background-color: #061e29 !important ;
+  background-color: transparent !important ;
 }
 .anticon svg {
   color: white;

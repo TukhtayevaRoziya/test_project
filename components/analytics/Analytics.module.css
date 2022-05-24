@@ -15,7 +15,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -26,7 +26,7 @@
 
 .analytics__body__title {
   width: 100%;
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 176px;
@@ -62,7 +62,7 @@
 }
 
 .analytics__body__block__box__titles div p {
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -81,7 +81,7 @@
 }
 
 .analytics__body__block__box__titles div h3 {
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -107,7 +107,7 @@
 .content p {
   width: 80%;
   text-align: center;
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -123,6 +123,9 @@
 }
 
 @media (min-width:0) and (max-width:1200px){
+  .analytics__body{
+    width: 90%
+  }
   .analytics__body__title{
     font-size: 56px;
     margin-bottom: 0;

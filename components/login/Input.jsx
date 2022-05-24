@@ -5,7 +5,6 @@ import Image from "next/image";
 import img from "../../assets/Login1.svg";
 import Link  from 'next/link'
 import Router from 'next/router'
-import Head from 'next/head';
 
 export const Input = () => {
   const [message2, setMessage] = useState("");
@@ -29,15 +28,6 @@ export const Input = () => {
   };
   return (
     <div className={style.login__input}>
-          <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <div className={style.login__input__title}>
         <h1>Get info about your Token</h1>
         <Image

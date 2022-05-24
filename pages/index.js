@@ -12,13 +12,7 @@ export default function Index() {
   return (
     <div>
       <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
+        <title>Lemonade Ape Stand</title>
       </Head>
       <Header />
       <Navbar smDisplay={'smDisplay'}/>

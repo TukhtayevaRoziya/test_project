@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Table, Input, InputNumber, Popconfirm, Form, Typography } from 'antd';
-import Head from 'next/head';
+import { Table, Input, InputNumber, Form, Typography, Tag } from 'antd';
+
 const originData = [];
 
 for (let i = 0; i < 100; i++) {
@@ -8,7 +8,7 @@ for (let i = 0; i < 100; i++) {
     key: i.toString(),
     name: `0x05732b6D78591E75B31022d71E55Aa810498A5a4`,
     age: 32,
-    address: `Sell`,
+    tags: i % 2 == 0 ? ["Sell"] : ["Buy"]
   });
 }
 
@@ -97,11 +97,28 @@ export const Table2 = () => {
     },
     {
       title: 'Transaction Type',
-      dataIndex: 'address',
-      width: '40%',
-      editable: true,
+      key: 'tags',
+      dataIndex: 'tags',
+      render: (_, { tags }) => (
+        <>
+          {tags && tags.map((tag) => {
+            let color = tag.length > 5 ? 'geekblue' : 'green';
+  
+            if (tag === 'loser') {
+              color = 'volcano';
+            }
+  
+            return (
+              <Tag color={color} key={tag}>
+                {tag.toUpperCase()}
+              </Tag>
+            );
+          })}
+        </>
+      ),
     },
     {
+      
       title: 'Amount of Tokens',
       dataIndex: 'operation',
       render: (_, record) => {
@@ -114,15 +131,12 @@ export const Table2 = () => {
                 marginRight: 8,
               }}
             >
-              356,000,000
+              Save
             </Typography.Link>
-            <Popconfirm title="Sure to cancel?" onConfirm={cancel}>
-              <a>Cancel</a>
-            </Popconfirm>
           </span>
         ) : (
           <Typography.Link disabled={editingKey !== ''} onClick={() => edit(record)}>
-            28,356,000,000
+            Edit
           </Typography.Link>
         );
       },
@@ -146,15 +160,6 @@ export const Table2 = () => {
   });
   return (
     <Form form={form} component={false}>
-          <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <Table
         components={{
           body: {

@@ -5,22 +5,20 @@ import { Table2 } from "./../components/table/Table";
 import { Navbar } from "./../components/navbar/Navbar";
 import { Analytics } from "./../components/analytics/Analytics";
 
+import styles from '../styles/home.module.css'
+
 const Home = () => {
   return (
     <div >
-     <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
+           <Head>
+        <title>Lemonade Ape Stand</title>
       </Head>
       <Header />
       <Navbar smDisplay={'smDisplay'}/>
       <Analytics />
       <div className={"myTable"}>
+        <h1 className={styles.home__table_title}>All transactions from launch till now
+</h1>
         <Table2 />
       </div>
       <div className={'margin'}>

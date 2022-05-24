@@ -4,7 +4,6 @@ import { Button, Popover } from "antd";
 
 import styles from "./Analytics.module.css";
 import "antd/dist/antd.css";
-import Head from 'next/head';
 
 const content = (
   <div className={styles.content}>
@@ -26,15 +25,6 @@ export const AnalyticsBoxes = ({
 }) => {
   return (
     <div className={styles.analytics__body__block__box}>
-          <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <div className={styles.analytics__body__block__box__titles}>
         <div>
           <p>

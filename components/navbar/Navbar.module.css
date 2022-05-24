@@ -23,11 +23,16 @@
 .navbar__links a {
   color: #fff;
   text-decoration: underline;
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 26px;
+}
+
+.navbar__links a:hover{
+  --tw-text-opacity: 1;
+    color: rgb(254 191 62 / var(--tw-text-opacity));
 }
 
 .navbar__links__btn {
@@ -42,22 +47,25 @@
 .navbar__links__btn button {
   background: none;
   border: none;
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 26px;
+  color: #fff
 }
 
+.navbar__links__btn:hover,
 .navbar__links__btn button:hover {
-  background: none;
-  color: #fff;
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+  color: #fff
 }
 
 .navbar__title {
   margin: auto 0;
 
-  font-family: "VT323", monospace;
+  font-family: 'Mini Pixel-7';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -79,6 +87,37 @@
     justify-content: flex-start;
     width: 100%
   }
+
+  .navbar__links__btn{
+    margin: 3rem 0 !important
+  }
+
+  .smNavbar__imgs{
+    width: calc(100% + 48px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 -24px;
+  }
+
+  .smNavbar__imgs__duck{
+    object-fit: contain;
+    width: inherit !important;
+    height: inherit !important;
+    min-width: inherit !important;
+    max-width: initial !important;
+    min-height: inherit !important;
+  }
+
+
+  .ant-drawer-body{
+    overflow: hidden !important
+  }
+
+  .smNavbar__links{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
   
   .navbarSm a{
     margin: 1rem 0
@@ -96,9 +135,9 @@
     justify-content: flex-end;
     margin: 2rem 1rem 0
   }
-
-  .navbar__links a {
-    font-size: 20px;
-    line-height: 26px;
-  }
+  
+.navbar__links a {
+  font-size: 20px;
+  line-height: 26px;
+}
 }

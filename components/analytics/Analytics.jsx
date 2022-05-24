@@ -1,7 +1,5 @@
 import { RiArrowDropLeftLine } from "react-icons/ri";
 
-import Head from "next/head";
-
 import {ChartBox} from './chart/Chart'
 import {BigBlock} from './bigBlock/BigBlock'
 import { EndBlock } from "./endBlock/EndBlock";
@@ -13,15 +11,6 @@ import "antd/dist/antd.css";
 export const Analytics = () => {
   return (
     <div className={styles.analytics} id={'mint'}>
-          <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <div className={styles.analytics__body}>
         <h1 className={styles.analytics__body__check}>
           <RiArrowDropLeftLine /> Check another contract
@@ -50,15 +39,6 @@ export const Analytics = () => {
             title4={"TOTAL TX"}
             txt4={"5,605"}
           />
-               <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
         </div>
        <ChartBox id='#mint'/>
        <BigBlock />

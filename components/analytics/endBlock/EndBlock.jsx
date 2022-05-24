@@ -4,20 +4,10 @@ import {AnalyticsBoxes} from '../AnalyticsBoxes'
 import { BigBlock } from "./bigBlockEnd/BigBlock";
 
 import styles from './EndBlock.module.css'
-import Head from 'next/head';
 
 export const EndBlock = () => {
   return (
     <div className={styles.endBlock}>
-          <Head>
-        <title>LAS ANALYTICS</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <div className={styles.endBlock__box1}>
             <AnalyticsBoxes
             title1={"MARKET CAP"}
