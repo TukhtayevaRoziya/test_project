@@ -127,14 +127,17 @@
     width: 90%
   }
   .analytics__body__title{
-    font-size: 56px;
+    font-size: 90px;
     margin-bottom: 0;
     margin-top: 0;
-    line-height: 64px;
+    line-height: 72px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .analytics__body__check{
-    font-size: 24px
+    font-size: 32px;
+    line-height: 26px;
   }
 
   .analytics__body__block__box__titles div h3{

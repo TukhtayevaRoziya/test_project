@@ -42,8 +42,8 @@ all: unset;
   
 .bigBlock__title h1{
   margin-bottom:1rem ;
-  font-size: 40px;
-  line-height: 45px
+  font-size: 56px;
+  line-height: 44px;
 }
 .bigBlock__text{
   width: 100%

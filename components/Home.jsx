@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import { Header } from "./header/Header";
 import { Table2 } from "./table/Table";
 import { Navbar } from "./navbar/Navbar";
@@ -13,8 +12,10 @@ export const Home = () => {
       <Head>
         <title>Lemonade Ape Stand</title>
       </Head>
+        <title>Lemonade Ape Stand</title>
       <Header />
       <Navbar smDisplay={"smDisplay"} />
+
       <Analytics />
       <div className={"myTable"}>
         <h1 className={styles.home__table_title}>
