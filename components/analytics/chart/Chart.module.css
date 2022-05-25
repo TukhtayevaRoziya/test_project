@@ -149,5 +149,6 @@
   }
   .analytics__body__block__diagramma_box canvas {
     margin: 40px 0 0 0;
+    width: 100% !important
   }
 }

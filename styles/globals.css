@@ -376,6 +376,10 @@ tr.ant-table-row.ant-table-row-level-0.editable-row:nth-child(even) td.ant-table
 
 
 @media (min-width: 0) and (max-width: 1200.9px) {
+  .margin .Navbar_navbar__links__kkPCY a:nth-child(3){
+    display: none
+  }
+
   .ant-drawer-header-title{
     flex-direction: row-reverse;
   }
