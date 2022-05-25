@@ -10,8 +10,9 @@ export default function Index() {
         <title>Lemonade Ape Stand</title>
       </Head>
       <Header />
-      <Navbar smDisplay={"smDisplay"} />
-      <Login />
+      {/* <Navbar smDisplay={"smDisplay"} /> */}
+      <Home />
+      {/* <Login /> */}
     </div>
   );
 }
