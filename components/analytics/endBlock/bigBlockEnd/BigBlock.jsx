@@ -21,7 +21,9 @@ export const BigBlock = () => {
             txt3={"926"}
             title4={"whales"}
             txt4={"14"}
-            btnClass2={'none'}/>
+            btnClass2={'bir'}
+            
+            />
       </div>
     </div>
   )

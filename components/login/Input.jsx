@@ -1,15 +1,18 @@
 import React, { useState } from "react";
-import style from "./login.module.css";
 import { message, Checkbox } from "antd";
+
 import Image from "next/image";
+import { useRouter } from 'next/router'
+
 import duck from "../../assets/duck.gif";
 import img from "../../assets/logintext.svg";
-import Link  from 'next/link'
-import Router from 'next/router'
+
+import style from "./login.module.css";
 
 export const Input = () => {
   const [message2, setMessage] = useState("");
   const [message3, setMessage2] = useState("");
+  const router = useRouter()
 
   const handleChange = (event) => {
     setMessage(event.target.value);
@@ -20,7 +23,9 @@ export const Input = () => {
 
   const handleClick = (event) => {
     event.preventDefault();
-    message.warning("Successfully completed");
+
+    message.success("Successfully completed");
+    router.push('/home')
   };
   return (
     <div className={style.login__input}>
